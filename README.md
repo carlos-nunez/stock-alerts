@@ -1,4 +1,4 @@
-### Bollinger Bands Stock Analyzer
+# Bollinger Bands Stock Analyzer
 This simple Python script uses Bollinger Bands to determine whether a certain stock should be bought or not. It specifically considers if the stock's asking price is below the lower Bollinger Band.
 
 Bollinger Bands consist of a middle band (which is a 20-day simple moving average) with two outer bands. The outer bands are typically two standard deviations away from the middle band. When the price of a stock drops below the lower Bollinger Band, it might be considered a good time to buy, as the stock may be oversold. However, it's important to note that this script uses a very simple strategy and doesn't consider other important factors like market news, company fundamentals or other technical indicators.
